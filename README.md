@@ -1,6 +1,5 @@
 # API-ViaCep
 
-## Uma API de teste de integração com API Externa
 
 ## Endpoints
 
@@ -48,7 +47,7 @@
 		"password": "1234",
 		"dtNasc": "11/01/2004",
 		"address": [
-      {
+			{
 				"cep": "04707-900",
 				"logradouro": "Av. Roque Petroni Júnior",
 				"complemento": "",
@@ -57,7 +56,7 @@
 				"uf": "SP",
 				"numero": null
 			}
-    ]
+    	]
 	}
 ]
 ```
