@@ -1,5 +1,9 @@
 # API-ViaCep
 
+## Documentação
+A API ViaCep-UserCadastro é uma aplicação desenvolvida em Java que utiliza o framework Spring Boot. Ela oferece capacidades de recuperação de informações de endereço utilizando o serviço ViaCep e permite o gerenciamento de cadastro de usuários.
+
+**Uso:** Esta API pode ser utilizada por desenvolvedores que necessitam de uma solução para consultar detalhes de endereço utilizando um CEP ou para gerenciar o cadastro de usuários em seus sistemas.
 
 ## Endpoints
 
