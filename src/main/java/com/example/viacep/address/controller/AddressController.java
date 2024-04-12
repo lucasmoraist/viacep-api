@@ -14,8 +14,9 @@ public class AddressController {
 
     @Autowired
     private AddressService service;
+
     @PostMapping("{idUser}/{cep}")
     public Address findByAddress(@PathVariable String cep, @PathVariable Long idUser, @RequestBody AddressDTO dto) throws Exception{
-        return this.service.findByAddress(cep, idUser, dto);
+        return this.service.createAddressToUser(cep, idUser, dto);
     }
 }
